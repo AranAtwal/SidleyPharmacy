@@ -9,6 +9,10 @@ function Navbar() {
 		setMenuOpen(!menuOpen)
 	}
 
+	const handleMenuItemClick = () => {
+		toggleMenu()
+	}
+
 	return (
 		<nav>
 			<div className="logo">LOGO</div>
@@ -16,16 +20,16 @@ function Navbar() {
 				☰
 			</div>
 			<ul className={`menu ${menuOpen ? "open" : ""}`}>
-				<li>
+				<li onClick={handleMenuItemClick}>
 					<Link to="/">Home</Link>
 				</li>
-				<li>
+				{/* <li onClick={handleMenuItemClick}>
 					<a href="#">About</a>
 				</li>
-				<li>
+				<li onClick={handleMenuItemClick}>
 					<a href="#">Services</a>
-				</li>
-				<li>
+				</li> */}
+				<li onClick={handleMenuItemClick}>
 					<Link to="/Contact">Contact</Link>
 				</li>
 			</ul>

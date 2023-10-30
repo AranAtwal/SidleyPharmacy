@@ -1,0 +1,12 @@
+/* Default styles for mobile */
+* {
+	box-sizing: border-box;
+}
+
+.content {
+	padding: 0 1rem;
+}
+
+/* Styles for larger screens */
+@media (min-width: 769px) {
+}

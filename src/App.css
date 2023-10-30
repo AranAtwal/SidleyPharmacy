@@ -1,1 +1,10 @@
-/*# sourceMappingURL=App.css.map */
+/* Default styles for mobile */
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  padding: 0 1rem;
+}
+
+/* Styles for larger screens *//*# sourceMappingURL=App.css.map */

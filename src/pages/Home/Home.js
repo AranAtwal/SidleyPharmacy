@@ -1,10 +1,16 @@
 import React from "react"
 import "./Home.css"
 
+import pharmacyStaff from "../../assets/images/pharmacy-staff.jpg"
+
 function Home() {
 	return (
 		<div className="Home">
-			<h1>HOME</h1>
+			<main className="main-content">
+				<section className="hero">
+					<img src={pharmacyStaff} alt="pharamcy staff" />
+				</section>
+			</main>
 		</div>
 	)
 }
