@@ -1,2 +1,16 @@
 /* Default styles for mobile */
+.hero-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+.hero-image-container .hero-image {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
 /* Styles for larger screens *//*# sourceMappingURL=Home.css.map */

@@ -1,5 +1,22 @@
 /* Default styles for mobile */
 
+.hero {
+	&-image-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%; // Or any specific width
+		position: relative;
+
+		.hero-image {
+			position: relative;
+			max-width: 100%; // Ensures image doesn’t overflow the container
+			height: auto; // Maintains aspect ratio
+			z-index: 1;
+		}
+	}
+}
+
 /* Styles for larger screens */
 @media (min-width: 769px) {
 }

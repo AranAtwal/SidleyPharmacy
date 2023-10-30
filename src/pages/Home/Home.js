@@ -1,14 +1,20 @@
 import React from "react"
 import "./Home.css"
 
-import pharmacyStaff from "../../assets/images/pharmacy-staff.jpg"
+import pharmacist from "../../assets/images/pharmacist.jpeg"
 
 function Home() {
 	return (
 		<div className="Home">
 			<main className="main-content">
 				<section className="hero">
-					<img src={pharmacyStaff} alt="pharamcy staff" />
+					<div className="hero-image-container">
+						<img
+							className="hero-image"
+							src={pharmacist}
+							alt="pharamcy staff"
+						/>
+					</div>
 				</section>
 			</main>
 		</div>
