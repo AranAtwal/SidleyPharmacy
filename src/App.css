@@ -7,4 +7,9 @@
   padding: 0 1rem;
 }
 
-/* Styles for larger screens *//*# sourceMappingURL=App.css.map */
+/* Styles for larger screens */
+@media (min-width: 769px) {
+  .content {
+    padding: 0 4rem;
+  }
+}/*# sourceMappingURL=App.css.map */
