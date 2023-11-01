@@ -17,6 +17,27 @@
   z-index: 1;
 }
 
+.nhs-login {
+  text-align: center;
+  background-color: #005eb8;
+  width: 15rem;
+  margin: auto;
+  padding: 0.75rem;
+  border-radius: 0.2rem;
+}
+.nhs-login:hover {
+  background-color: #003087;
+}
+.nhs-login-button {
+  display: flex;
+  justify-content: center;
+  gap: 0.25rem;
+  text-decoration: unset;
+}
+.nhs-login-button span {
+  color: white;
+}
+
 /* Styles for larger screens */
 @media (min-width: 769px) {
   .hero {
@@ -25,5 +46,8 @@
   .hero-image-container .hero-image {
     width: 40vw;
     max-width: 500px;
+  }
+  .nhs-login {
+    width: 20rem;
   }
 }/*# sourceMappingURL=Home.css.map */
