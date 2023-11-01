@@ -5,11 +5,17 @@
 
 .content {
   padding: 0 1rem;
+  margin: auto;
 }
 
 /* Styles for larger screens */
 @media (min-width: 769px) {
   .content {
-    padding: 0 4rem;
+    width: 80%;
+  }
+}
+@media (min-width: 1441px) {
+  .content {
+    width: 60%;
   }
 }/*# sourceMappingURL=App.css.map */

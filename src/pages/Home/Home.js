@@ -32,11 +32,32 @@ function Home() {
 							<a
 								href="https://www.nhs.uk/nhs-app/account/"
 								className="nhs-login-button"
+								target="_blank"
 							>
 								<span className="nhs-login-logo">NHS</span>
 								<span className="nhs-login-text">
 									Continue with NHS Login
 								</span>
+							</a>
+						</div>
+						<div className="nhs-apps">
+							<a
+								href="https://apps.apple.com/gb/app/nhs-app/id1388411277"
+								className="nhs-android"
+								target="_blank"
+							>
+								<span className="nhs-android-logo">Logo</span>
+								<span className="nhs-app-text">
+									Google Play
+								</span>
+							</a>
+							<a
+								href="https://apps.apple.com/gb/app/nhs-app/id1388411277"
+								className="nhs-apple"
+								target="_blank"
+							>
+								<span className="nhs-apple-logo">Logo</span>
+								<span className="nhs-app-text">App Store</span>
 							</a>
 						</div>
 					</div>
