@@ -2,6 +2,7 @@
   "name": "sidley-pharmacy",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://AranAtwal.github.io/SidleyPharmacy",
   "dependencies": {
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.15",
@@ -42,7 +43,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0",
-    "homepage": "https://AranAtwal.github.io/SidleyPharmacy"
+    "gh-pages": "^6.0.0"
   }
 }
