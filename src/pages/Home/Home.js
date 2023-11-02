@@ -8,18 +8,18 @@ function Home() {
 		<div className="Home">
 			<main className="main-content">
 				<section className="hero">
-					<div className="hero-image-container">
+					<div className="hero-image-container container">
 						<img
 							className="hero-image"
 							src={pharmacist}
 							alt="pharamcy staff"
 						/>
 					</div>
-					<div className="hero-services">
+					<div className="hero-services container">
 						<h1 className="hero-services-title">
 							NHS and Private Pharmacy Services
 						</h1>
-						<ul className="hero-serices-list">
+						<ul className="hero-services-list">
 							<li>Order your NHS Perscriptions</li>
 							<li>
 								Avoid waiting for your GP, book NHS and private
@@ -60,6 +60,11 @@ function Home() {
 								<span className="nhs-app-text">App Store</span>
 							</a>
 						</div>
+					</div>
+				</section>
+				<section className="services">
+					<div className="container">
+						<h1>lorem ipsum</h1>
 					</div>
 				</section>
 			</main>

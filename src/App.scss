@@ -1,10 +1,11 @@
 /* Default styles for mobile */
 * {
 	box-sizing: border-box;
+	margin-block-start: auto;
+	margin-block-end: auto;
 }
 
 .content {
-	padding: 0 1rem;
 	margin: auto;
 }
 
