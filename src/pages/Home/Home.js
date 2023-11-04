@@ -64,7 +64,40 @@ function Home() {
 				</section>
 				<section className="services">
 					<div className="container">
-						<h1>lorem ipsum</h1>
+						<h1 className="title">Services</h1>
+
+						<div className="services-list">
+							<div className="services-list-item">
+								<div className="services-list-item-title">
+									Travel Clinic
+								</div>
+								<div className="services-list-item-description">
+									At Your Local Pharmacy, we provide a full
+									range of travel clinic services including
+									travel vaccinations and malaria tablets.
+								</div>
+							</div>
+							<div className="services-list-item">
+								<div className="services-list-item-title">
+									Travel Clinic
+								</div>
+								<div className="services-list-item-description">
+									At Your Local Pharmacy, we provide a full
+									range of travel clinic services including
+									travel vaccinations and malaria tablets.
+								</div>
+							</div>
+							<div className="services-list-item">
+								<div className="services-list-item-title">
+									Travel Clinic
+								</div>
+								<div className="services-list-item-description">
+									At Your Local Pharmacy, we provide a full
+									range of travel clinic services including
+									travel vaccinations and malaria tablets.
+								</div>
+							</div>
+						</div>
 					</div>
 				</section>
 			</main>

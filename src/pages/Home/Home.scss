@@ -11,6 +11,10 @@ section {
 	}
 }
 
+.title {
+	padding: 0.5rem 0;
+}
+
 .hero {
 	display: flex;
 	flex-direction: column;
@@ -78,6 +82,59 @@ section {
 		gap: 0.25rem;
 		text-decoration: unset;
 		padding: 0.8rem 1rem;
+	}
+}
+
+.services {
+	&-list {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+
+		&-item {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			gap: 1rem;
+
+			background-color: lightgray;
+
+			// background-image: url("../../assets/images/pharmacist.jpeg"); /* Path relative to the CSS file */
+			// background-size: cover; /* Cover the entire area of the element */
+			// background-position: center; /* Center the image in the element */
+			// background-repeat: no-repeat; /* Do not repeat the image */
+			position: relative;
+			color: white;
+			font-weight: 500;
+			border-radius: 1rem;
+			padding: 1rem 1rem 3rem;
+			height: 20rem;
+			width: auto;
+			overflow: hidden;
+
+			// &::after {
+			// 	content: "";
+			// 	position: absolute;
+			// 	top: 0;
+			// 	left: 0;
+			// 	right: 0;
+			// 	bottom: 0;
+			// 	background: rgba(
+			// 		0,
+			// 		0,
+			// 		0,
+			// 		0.5
+			// 	); /* Dark overlay with 50% opacity */
+			// 	pointer-events: none;
+			// }
+
+			&-title {
+				font-size: 2rem;
+			}
+
+			&-description {
+			}
+		}
 	}
 }
 
