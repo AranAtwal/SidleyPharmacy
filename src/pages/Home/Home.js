@@ -42,7 +42,7 @@ function Home() {
 						</div>
 						<div className="nhs-apps">
 							<a
-								href="https://apps.apple.com/gb/app/nhs-app/id1388411277"
+								href="https://play.google.com/store/apps/details?id=com.nhs.online.nhsonline&hl=en"
 								className="nhs-android"
 								target="_blank"
 							>
