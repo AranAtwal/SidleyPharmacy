@@ -4,7 +4,7 @@
 }
 
 section {
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 section:nth-child(even) {
   background-color: rgb(240, 240, 240);
