@@ -17,6 +17,7 @@ section:nth-child(even) {
 .hero {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .hero-services {
   margin-top: 1rem;
@@ -65,7 +66,7 @@ section:nth-child(even) {
   justify-content: center;
   gap: 0.5rem;
   text-align: center;
-  margin: 0.8rem auto 0;
+  margin: 0.8rem auto;
   border-radius: 0.2rem;
 }
 .nhs-apps a {
@@ -104,6 +105,9 @@ section:nth-child(even) {
   font-size: 2rem;
 }
 @media (min-width: 600px) {
+  .container {
+    padding: 0 10%;
+  }
   .services-list {
     flex-direction: row;
     justify-content: flex-start;
@@ -120,5 +124,15 @@ section:nth-child(even) {
   }
   .nhs-login {
     width: 20rem;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    padding: 0 15%;
+  }
+}
+@media (min-width: 1441px) {
+  .container {
+    padding: 0 20%;
   }
 }/*# sourceMappingURL=Home.css.map */

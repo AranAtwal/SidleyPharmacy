@@ -7,15 +7,15 @@ function Home() {
 	return (
 		<div className="Home">
 			<main className="main-content">
-				<section className="hero">
-					<div className="hero-image-container container">
+				<section className="hero container">
+					<div className="hero-image-container">
 						<img
 							className="hero-image"
 							src={pharmacist}
 							alt="pharamcy staff"
 						/>
 					</div>
-					<div className="hero-services container">
+					<div className="hero-services">
 						<h1 className="hero-services-title">
 							NHS and Private Pharmacy Services
 						</h1>
@@ -79,22 +79,35 @@ function Home() {
 							</div>
 							<div className="services-list-item">
 								<div className="services-list-item-title">
-									Travel Clinic
+									Blood Testing
 								</div>
 								<div className="services-list-item-description">
-									At Your Local Pharmacy, we provide a full
-									range of travel clinic services including
-									travel vaccinations and malaria tablets.
+									Blood tests have a wide range of uses and
+									are one of the most common types of medical
+									test.
 								</div>
 							</div>
 							<div className="services-list-item">
 								<div className="services-list-item-title">
-									Travel Clinic
+									Ear Wax Removal
 								</div>
 								<div className="services-list-item-description">
-									At Your Local Pharmacy, we provide a full
-									range of travel clinic services including
-									travel vaccinations and malaria tablets.
+									Ear wax is healthy in normal amounts and
+									serves as a self-cleansing agent with
+									protective, lubricating and antibacterial
+									properties
+								</div>
+							</div>
+							<div className="services-list-item">
+								<div className="services-list-item-title">
+									Cryotherapy
+								</div>
+								<div className="services-list-item-description">
+									Cryotherapy is a method of freezing which
+									uses a substance called liquid nitrogen. A
+									carefully controlled amount of liquid
+									nitrogen is applied to the affected area of
+									skin.
 								</div>
 							</div>
 						</div>

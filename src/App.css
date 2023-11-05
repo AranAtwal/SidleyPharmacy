@@ -9,14 +9,4 @@
   margin: auto;
 }
 
-/* Styles for larger screens */
-@media (min-width: 769px) {
-  .content {
-    width: 80%;
-  }
-}
-@media (min-width: 1441px) {
-  .content {
-    width: 60%;
-  }
-}/*# sourceMappingURL=App.css.map */
+/* Styles for larger screens *//*# sourceMappingURL=App.css.map */

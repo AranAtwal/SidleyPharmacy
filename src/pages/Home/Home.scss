@@ -17,6 +17,7 @@ section {
 .hero {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 
 	&-services {
 		margin-top: 1rem;
@@ -71,7 +72,7 @@ section {
 	justify-content: center;
 	gap: 0.5rem;
 	text-align: center;
-	margin: 0.8rem auto 0;
+	margin: 0.8rem auto;
 	border-radius: 0.2rem;
 
 	a {
@@ -119,6 +120,10 @@ section {
 }
 
 @media (min-width: 600px) {
+	.container {
+		padding: 0 10%;
+	}
+
 	.services-list {
 		flex-direction: row; // Sets a horizontal direction on larger screens
 		justify-content: flex-start; // Aligns items to the start of the container
@@ -140,5 +145,20 @@ section {
 
 	.nhs-login {
 		width: 20rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		padding: 0 15%;
+	}
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1441px) {
+	.container {
+		padding: 0 20%;
 	}
 }
