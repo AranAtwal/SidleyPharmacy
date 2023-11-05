@@ -89,8 +89,11 @@ section {
 		display: flex;
 		flex-direction: column;
 		gap: 0.5rem;
+		flex-wrap: wrap;
 
 		&-item {
+			flex: 1; // Items will grow to fill the space
+			min-width: 15rem; // Minimum width before wrapping occurs
 			display: flex;
 			flex-direction: column;
 			justify-content: flex-end;
@@ -101,7 +104,7 @@ section {
 			font-weight: 500;
 			border-radius: 1rem;
 			padding: 1rem 1rem 3rem;
-			height: 20rem;
+			min-height: 20rem;
 			width: auto;
 			overflow: hidden;
 
@@ -112,6 +115,13 @@ section {
 			&-description {
 			}
 		}
+	}
+}
+
+@media (min-width: 600px) {
+	.services-list {
+		flex-direction: row; // Sets a horizontal direction on larger screens
+		justify-content: flex-start; // Aligns items to the start of the container
 	}
 }
 
