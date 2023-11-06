@@ -5,8 +5,31 @@
   margin-block-end: unset;
 }
 
+.title {
+  padding: 0.5rem 0;
+}
+
 .content {
   margin: auto;
 }
 
-/* Styles for larger screens *//*# sourceMappingURL=App.css.map */
+.container {
+  padding: 0 1rem;
+}
+
+@media (min-width: 600px) {
+  .container {
+    padding: 0 10%;
+  }
+}
+/* Styles for larger screens */
+@media (min-width: 992px) {
+  .container {
+    padding: 0 15%;
+  }
+}
+@media (min-width: 1441px) {
+  .container {
+    padding: 0 20%;
+  }
+}/*# sourceMappingURL=App.css.map */

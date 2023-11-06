@@ -5,19 +5,38 @@
 	margin-block-end: unset;
 }
 
+.title {
+	padding: 0.5rem 0;
+}
+
 .content {
 	margin: auto;
 }
 
-/* Styles for larger screens */
-@media (min-width: 769px) {
-	.content {
-		// width: 80%;
+.container {
+	padding: 0 1rem;
+}
+@media (min-width: 600px) {
+	.container {
+		padding: 0 10%;
 	}
 }
 
+/* Styles for larger screens */
+@media (min-width: 769px) {
+}
+
+@media (min-width: 992px) {
+	.container {
+		padding: 0 15%;
+	}
+}
+
+@media (min-width: 1200px) {
+}
+
 @media (min-width: 1441px) {
-	.content {
-		// width: 60%;
+	.container {
+		padding: 0 20%;
 	}
 }

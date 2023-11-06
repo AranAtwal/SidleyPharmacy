@@ -1,0 +1,42 @@
+/* Default styles for mobile */
+.footer {
+	background-color: cornflowerblue;
+	display: flex;
+	flex-direction: column;
+	color: white;
+
+	&-section {
+		&-list {
+			list-style: none;
+			padding-inline-start: unset;
+
+			&-item {
+				margin-bottom: 0.5rem;
+			}
+		}
+	}
+}
+
+@media (min-width: 600px) {
+	.footer {
+	}
+}
+
+/* Styles for larger screens */
+@media (min-width: 769px) {
+	.footer {
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 1rem;
+		justify-content: space-evenly;
+	}
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1441px) {
+}

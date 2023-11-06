@@ -1,0 +1,24 @@
+/* Default styles for mobile */
+.footer {
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.footer-section-list {
+  list-style: none;
+  padding-inline-start: unset;
+}
+.footer-section-list-item {
+  margin-bottom: 0.5rem;
+}
+
+/* Styles for larger screens */
+@media (min-width: 769px) {
+  .footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+  }
+}/*# sourceMappingURL=Footer.css.map */

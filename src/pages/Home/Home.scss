@@ -1,17 +1,9 @@
 /* Default styles for mobile */
-.container {
-	padding: 0 1rem;
-}
-
 section {
 	padding-bottom: 1rem;
 	&:nth-child(even) {
 		background-color: rgb(240, 240, 240);
 	}
-}
-
-.title {
-	padding: 0.5rem 0;
 }
 
 .hero {
@@ -120,10 +112,6 @@ section {
 }
 
 @media (min-width: 600px) {
-	.container {
-		padding: 0 10%;
-	}
-
 	.services-list {
 		flex-direction: row; // Sets a horizontal direction on larger screens
 		justify-content: flex-start; // Aligns items to the start of the container
@@ -149,16 +137,10 @@ section {
 }
 
 @media (min-width: 992px) {
-	.container {
-		padding: 0 15%;
-	}
 }
 
 @media (min-width: 1200px) {
 }
 
 @media (min-width: 1441px) {
-	.container {
-		padding: 0 20%;
-	}
 }
