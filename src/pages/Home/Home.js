@@ -2,6 +2,7 @@ import React from "react"
 import "./Home.css"
 
 import pharmacist from "../../assets/images/pharmacist.jpeg"
+import pharmacyStaff from "../../assets/images/pharmacy-staff.jpg"
 
 function Home() {
 	return (
@@ -12,7 +13,7 @@ function Home() {
 						<img
 							className="hero-image"
 							src={pharmacist}
-							alt="pharamcy staff"
+							alt="pharamcist"
 						/>
 					</div>
 					<div className="hero-services">
@@ -65,7 +66,6 @@ function Home() {
 				<section className="services">
 					<div className="container">
 						<h1 className="title">Services</h1>
-
 						<div className="services-list">
 							<div className="services-list-item">
 								<div className="services-list-item-title">
@@ -109,6 +109,34 @@ function Home() {
 									nitrogen is applied to the affected area of
 									skin.
 								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section className="bio">
+					<div className="container">
+						<h1 className="title">Sidley Pharmacy</h1>
+						<div className="bio-info">
+							<div className="staff-image-container">
+								<img
+									className="staff-image"
+									src={pharmacyStaff}
+									alt="pharamcy staff"
+								/>
+							</div>
+							<div className="bio-info-container">
+								<h2 className="bio-info-title">
+									We are a family run independent pharmacy
+									serving the local communities.
+								</h2>
+								<p className="bio-info-description">
+									We founded the company with the aim to serve
+									the local community and provide a wide range
+									of healthcare services to our community of
+									Erdington, Gravelly Hill, Washwood Heath,
+									Sutton Coldfield, Aston and the surrounding
+									areas.
+								</p>
 							</div>
 						</div>
 					</div>
