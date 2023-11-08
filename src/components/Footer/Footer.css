@@ -6,8 +6,8 @@
   color: white;
 }
 .footer-section-list {
-  list-style: none;
   padding-inline-start: unset;
+  list-style: none;
 }
 .footer-section-list-item {
   margin-bottom: 0.5rem;

@@ -1,8 +1,8 @@
 import React from "react"
 import "./Home.css"
 
-import pharmacist from "../../assets/images/pharmacist.jpeg"
-import pharmacyStaff from "../../assets/images/pharmacy-staff.jpg"
+import pharmacist from "../../assets/images/pharmacist.png"
+import pharmacyStaff from "../../assets/images/pharmacy-staff.png"
 
 function Home() {
 	return (

@@ -133,8 +133,8 @@ section:nth-child(even) {
     flex-direction: row-reverse;
   }
   .hero-image-container .hero-image {
-    width: 45vw;
-    max-width: 500px;
+    width: 35vw;
+    max-width: 350px;
   }
   .nhs-login {
     width: 20rem;

@@ -1,0 +1,51 @@
+.header {
+	padding-bottom: 1rem;
+	&-image-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%; // Or any specific width
+		position: relative;
+
+		.header-image {
+			position: relative;
+			max-width: 20rem; // Ensures image doesn’t overflow the container
+			height: auto; // Maintains aspect ratio
+			z-index: 1;
+		}
+	}
+}
+
+.opening-hours {
+	padding-bottom: 1rem;
+
+	&-list {
+		padding-inline-start: unset;
+		&-item {
+			display: flex;
+			list-style: none;
+			justify-content: space-between;
+		}
+
+		hr {
+			margin: 0.25rem 0;
+			opacity: 0.5;
+		}
+	}
+}
+
+@media (min-width: 600px) {
+}
+
+/* Styles for larger screens */
+@media (min-width: 769px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1441px) {
+}
