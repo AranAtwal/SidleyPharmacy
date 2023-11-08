@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/SidleyPharmacy/static/css/main.8aae07e7.css",
-    "main.js": "/SidleyPharmacy/static/js/main.9fcbfb8c.js",
+    "main.css": "/SidleyPharmacy/static/css/main.15adab47.css",
+    "main.js": "/SidleyPharmacy/static/js/main.cf75c474.js",
     "static/js/787.555cbdde.chunk.js": "/SidleyPharmacy/static/js/787.555cbdde.chunk.js",
-    "static/media/pharmacy-staff.jpg": "/SidleyPharmacy/static/media/pharmacy-staff.e83e9b8a9bfa0a6a9c43.jpg",
-    "static/media/pharmacist.jpeg": "/SidleyPharmacy/static/media/pharmacist.2cd005fae6cb40da5dd5.jpeg",
+    "static/media/pharmacy-staff.png": "/SidleyPharmacy/static/media/pharmacy-staff.6519fdcac8eafd4b15a8.png",
+    "static/media/pharmacist.png": "/SidleyPharmacy/static/media/pharmacist.b0574928e906a279aeba.png",
+    "static/media/pharmacist2.png": "/SidleyPharmacy/static/media/pharmacist2.13dd5e18a8bf01f6f429.png",
     "index.html": "/SidleyPharmacy/index.html",
-    "main.8aae07e7.css.map": "/SidleyPharmacy/static/css/main.8aae07e7.css.map",
-    "main.9fcbfb8c.js.map": "/SidleyPharmacy/static/js/main.9fcbfb8c.js.map",
+    "main.15adab47.css.map": "/SidleyPharmacy/static/css/main.15adab47.css.map",
+    "main.cf75c474.js.map": "/SidleyPharmacy/static/js/main.cf75c474.js.map",
     "787.555cbdde.chunk.js.map": "/SidleyPharmacy/static/js/787.555cbdde.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8aae07e7.css",
-    "static/js/main.9fcbfb8c.js"
+    "static/css/main.15adab47.css",
+    "static/js/main.cf75c474.js"
   ]
 }
