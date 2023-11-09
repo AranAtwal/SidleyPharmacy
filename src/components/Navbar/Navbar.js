@@ -16,23 +16,25 @@ function Navbar() {
 	return (
 		<nav>
 			<div className="logo">LOGO</div>
-			<div className="menu-toggle" onClick={toggleMenu}>
-				☰
-			</div>
+			<button
+				className={`menu-toggle ${menuOpen ? "opened" : ""}`}
+				onClick={toggleMenu}
+				aria-label="Menu toggle"
+			>
+				{menuOpen ? "✖" : "☰"}
+			</button>
 			<ul className={`menu ${menuOpen ? "open" : ""}`}>
 				<li onClick={handleMenuItemClick}>
 					<Link to="/">Home</Link>
 				</li>
-				{/* <li onClick={handleMenuItemClick}>
-					<a href="#">About</a>
-				</li>
-				<li onClick={handleMenuItemClick}>
-					<a href="#">Services</a>
-				</li> */}
 				<li onClick={handleMenuItemClick}>
 					<Link to="/Contact">Contact</Link>
 				</li>
 			</ul>
+			<div
+				className={`menu-backdrop ${menuOpen ? "open" : ""}`}
+				onClick={toggleMenu}
+			></div>
 		</nav>
 	)
 }

@@ -36,10 +36,32 @@ nav {
 
 	&-toggle {
 		display: block;
+		background: none; /* Removes the default button background */
+		border: none; /* Removes the default border */
+		color: inherit; /* Inherits the color from the parent element */
+		font: inherit; /* Inherits the font from the parent element */
+		cursor: pointer; /* Keeps the cursor as a pointer to indicate it's clickable */
+		outline: inherit; /* Inherits the outline style from the parent element (useful for focus styles) */
+		padding: 0; /* Removes the default padding */
+		margin: 0; /* Removes the default margin */
 	}
 
 	&.open {
 		display: flex;
+	}
+
+	&-backdrop {
+		position: fixed; /* or 'absolute' depending on your layout */
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 10; /* Adjust z-index to be below the dropdown content but above other page content */
+		display: none; /* Start hidden and toggle display via JavaScript */
+
+		&.open {
+			display: block;
+		}
 	}
 }
 
@@ -61,6 +83,14 @@ nav {
 
 		&-toggle {
 			display: none;
+		}
+
+		&-backdrop {
+			display: none;
+
+			&.open {
+				display: none;
+			}
 		}
 	}
 
