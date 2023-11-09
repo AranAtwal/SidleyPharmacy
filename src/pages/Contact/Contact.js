@@ -60,6 +60,15 @@ function Contact() {
 					<hr />
 				</ul>
 			</section>
+			<section className="location container">
+				<iframe
+					className="location-map"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.5818633328!2d0.46365654481087526!3d50.85742686072971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df11e3de3f6cd5%3A0x375a3b308105d633!2sSidley%20Pharmacy!5e0!3m2!1sen!2suk!4v1699553195817!5m2!1sen!2suk"
+					allowfullscreen="true"
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+				></iframe>
+			</section>
 		</div>
 	)
 }
