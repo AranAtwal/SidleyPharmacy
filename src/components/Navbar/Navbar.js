@@ -21,7 +21,7 @@ function Navbar() {
 			</div>
 			<ul className={`menu ${menuOpen ? "open" : ""}`}>
 				<li onClick={handleMenuItemClick}>
-					<Link to="/Home">Home</Link>
+					<Link to="/">Home</Link>
 				</li>
 				{/* <li onClick={handleMenuItemClick}>
 					<a href="#">About</a>
