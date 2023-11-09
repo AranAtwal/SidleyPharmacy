@@ -2,6 +2,8 @@ import React, { useState } from "react"
 import { Link } from "react-router-dom"
 import "./Navbar.css"
 
+import Hamburger from "hamburger-react"
+
 function Navbar() {
 	const [menuOpen, setMenuOpen] = useState(false)
 
@@ -16,13 +18,7 @@ function Navbar() {
 	return (
 		<nav>
 			<div className="logo">LOGO</div>
-			<button
-				className={`menu-toggle ${menuOpen ? "opened" : ""}`}
-				onClick={toggleMenu}
-				aria-label="Menu toggle"
-			>
-				{menuOpen ? "✖" : "☰"}
-			</button>
+			<Hamburger toggled={menuOpen} toggle={setMenuOpen} size={20} />
 			<ul className={`menu ${menuOpen ? "open" : ""}`}>
 				<li onClick={handleMenuItemClick}>
 					<Link to="/">Home</Link>
