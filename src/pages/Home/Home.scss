@@ -28,7 +28,7 @@ section {
 
 		.hero-image {
 			position: relative;
-			max-width: 100%; // Ensures image doesn’t overflow the container
+			max-width: 350px; // Ensures image doesn’t overflow the container
 			height: auto; // Maintains aspect ratio
 			z-index: 1;
 		}
