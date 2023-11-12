@@ -9,6 +9,7 @@ nav {
 	z-index: 999; /* Ensure navbar stays above other content */
 	background-color: #fff;
 	align-items: center;
+	height: 48px;
 }
 
 .menu {
@@ -18,7 +19,7 @@ nav {
 	padding: 0;
 	width: 100%;
 	position: absolute;
-	top: 64px;
+	top: 47px;
 	left: 0;
 	background-color: #fff;
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -38,18 +39,6 @@ nav {
 	li:last-child {
 		border-bottom: none;
 	}
-
-	// &-toggle {
-	// 	display: block;
-	// 	background: none; /* Removes the default button background */
-	// 	border: none; /* Removes the default border */
-	// 	color: inherit; /* Inherits the color from the parent element */
-	// 	font: inherit; /* Inherits the font from the parent element */
-	// 	cursor: pointer; /* Keeps the cursor as a pointer to indicate it's clickable */
-	// 	outline: inherit; /* Inherits the outline style from the parent element (useful for focus styles) */
-	// 	padding: 0; /* Removes the default padding */
-	// 	margin: 0; /* Removes the default margin */
-	// }
 
 	&.open {
 		display: flex;
@@ -86,10 +75,6 @@ nav {
 			padding: 0;
 		}
 
-		&-toggle {
-			display: none;
-		}
-
 		&-backdrop {
 			display: none;
 
@@ -103,5 +88,9 @@ nav {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+	}
+
+	.hamburger-react {
+		display: none;
 	}
 }
