@@ -24,6 +24,9 @@ function Navbar() {
 					<Link to="/">Home</Link>
 				</li>
 				<li onClick={handleMenuItemClick}>
+					<Link to="/Services">Services</Link>
+				</li>
+				<li onClick={handleMenuItemClick}>
 					<Link to="/Contact">Contact</Link>
 				</li>
 			</ul>
