@@ -126,6 +126,15 @@ section:nth-child(even) {
     flex-direction: row;
     justify-content: flex-start;
   }
+  .services-list-item {
+    /* Initial border set to transparent */
+    border: 4px solid transparent;
+    /* Transition for the border property */
+    transition: border-color 0.5s ease;
+  }
+  .services-list-item:hover {
+    border-color: #003087;
+  }
 }
 /* Styles for larger screens */
 @media (min-width: 769px) {

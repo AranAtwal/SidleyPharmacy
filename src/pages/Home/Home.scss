@@ -138,6 +138,18 @@ section {
 	.services-list {
 		flex-direction: row; // Sets a horizontal direction on larger screens
 		justify-content: flex-start; // Aligns items to the start of the container
+
+		&-item {
+			/* Initial border set to transparent */
+			border: 4px solid transparent;
+
+			/* Transition for the border property */
+			transition: border-color 0.5s ease;
+
+			&:hover {
+				border-color: #003087;
+			}
+		}
 	}
 }
 
