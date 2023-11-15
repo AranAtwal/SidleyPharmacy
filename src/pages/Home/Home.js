@@ -13,7 +13,7 @@ function Home() {
 						<img
 							className="hero-image"
 							src={pharmacist}
-							alt="pharamcist"
+							alt="pharmacist"
 						/>
 					</div>
 					<div className="hero-services">

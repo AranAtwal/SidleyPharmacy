@@ -11,7 +11,7 @@ function Contact() {
 					<img
 						className="header-image"
 						src={pharmacist}
-						alt="pharamcist"
+						alt="pharmacist"
 					/>
 				</div>
 				<h1 className="title">Contact</h1>
