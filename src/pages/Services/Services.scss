@@ -1,10 +1,52 @@
 /* Default styles for mobile */
+.services {
+	padding-bottom: 1rem;
+
+	&-group {
+		&-title {
+		}
+		&-list {
+			list-style: none;
+			padding-inline-start: unset;
+
+			&-item {
+				padding: 0.4rem 0rem;
+
+				hr {
+					margin: 0.25rem 0;
+					opacity: 0.5;
+				}
+			}
+		}
+	}
+}
 
 @media (min-width: 600px) {
 }
 
 /* Styles for larger screens */
 @media (min-width: 769px) {
+	.services {
+		display: flex;
+		justify-content: space-between; // This will space out the child elements evenly
+		flex-wrap: wrap; // Allows the items to wrap when necessary
+
+		&-group {
+			flex: 1; // Allows each group to grow and fill the space
+			max-width: calc(
+				50% - 1rem
+			); // Adjusts the width to less than half of the parent container to account for space between
+			gap: 0.5rem;
+
+			&:first-child {
+				margin-right: 0.5rem;
+			}
+
+			&:last-child {
+				margin-left: 0.5rem;
+			}
+		}
+	}
 }
 
 @media (min-width: 992px) {
